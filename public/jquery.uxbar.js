@@ -40,7 +40,7 @@
             barColorElementClass: 'color-element',
             floatRightClass: 'floatRight',
             barType: 'growing',
-            alphaClass: 'alpha40',
+            alphaClass: 'alpha10',
             slotColors: undefined
         }
     };
