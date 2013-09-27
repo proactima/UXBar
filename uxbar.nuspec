@@ -15,7 +15,7 @@
     <tags>jquery plugins</tags>
   </metadata>
   <files>
-    <file src="public\jquery.uxbar.js" target="Scripts\jquery.uxbar.js" />
-	<file src="public\jquery.uxbar.js.min" target="Scripts\jquery.uxbar.js.min" />
+    <file src="public\jquery.uxbar.js" target="content\Scripts\jquery.uxbar.js" />
+	<file src="public\jquery.uxbar.js.min" target="content\Scripts\jquery.uxbar.js.min" />
   </files>
 </package>
