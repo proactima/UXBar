@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>uxbar</id>
+    <version>$version$</version>
+    <title />
+    <authors>Proactima</authors>
+    <owners />
+    <licenseUrl>https://github.com/proactima/UXBar/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/proactima/UXBar</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UXBar is a jQuery plugin to create cool looking value bars.</description>
+    <copyright>Copyright (c) 2013 by Proactima</copyright>
+    <language>en-US</language>
+    <tags>jquery plugins</tags>
+  </metadata>
+  <files>
+    <file src="public\jquery.uxbar.js" target="Scripts\jquery.uxbar.js" />
+	<file src="public\jquery.uxbar.js.min" target="Scripts\jquery.uxbar.js.min" />
+  </files>
+</package>

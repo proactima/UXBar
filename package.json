@@ -1,0 +1,30 @@
+{
+  "author": "Proactima",
+  "name": "UXBar",
+  "version": "1.0.0",
+  "description": "UXBar is a jQuery plugin to create cool looking value bars",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proactima/UXBar"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "qunit": "~0.5.16",
+    "minify": "~0.2.1",
+	"jsdom": "~0.8.5",
+	"jquery": "~1.8.3",
+	"jasmine-node": "~1.11.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/proactima/UXBar/blob/master/LICENSE.md"
+    }
+  ],
+  "scripts": {
+	"test": "node tests/testrunner.js"
+  }
+}
