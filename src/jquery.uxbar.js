@@ -135,7 +135,7 @@
     }
 
     function createGrowingBar(containerElement, filledCount, elementCount, barColor) {
-        var bar, element, width, blankCount, filledElement, i;
+        var bar, element, width, blankCount, filledElement, i, coloredCount;
 
         bar = containerElement;
         width = 100 / elementCount;

@@ -1,8 +1,4 @@
-﻿/// <reference path="../jquery-1.10.2.js" />
-/// <reference path="../node_modules/qunit/support/qunit/qunit/qunit.js" />
-/// <reference path="../src/jquery.uxbar.js" />
-
-var targetId = "#qunit-fixture";
+﻿var targetId = "#qunit-fixture";
 
 QUnit.module("UXBar", {
     setup: function () {
@@ -148,7 +144,7 @@ test("Filled bar with 2 elements and first element filled should be created", fu
     equal($(firstElement).find('.spacer').length, 1, "Each color element should have a spacer");
 
     var lastFloatRight = floatRightSpans.last();
-    equal($(lastFloatRight).find('.uxbar.color-element.bg_green.alpha20').length, 1, "The last floatRight should have 1 color element");
+    equal($(lastFloatRight).find('.uxbar.color-element.bg_green.alpha10').length, 1, "The last floatRight should have 1 color element");
 });
 
 test("Filled bar with 2 elements and second element filled should be created", function () {
@@ -163,7 +159,7 @@ test("Filled bar with 2 elements and second element filled should be created", f
     equal($(floatRightSpans).length, 2, "There should be 2 floatRights inside the background span");
 
     var firstFloatRight = floatRightSpans.first();
-    var firstElement = $(firstFloatRight).find('.uxbar.color-element.bg_red.alpha20');
+    var firstElement = $(firstFloatRight).find('.uxbar.color-element.bg_red.alpha10');
     equal(firstElement.length, 1, "The first floatRight should have 1 spacer");
     equal($(firstElement).find('.spacer').length, 1, "Each color element should have a spacer");
 
