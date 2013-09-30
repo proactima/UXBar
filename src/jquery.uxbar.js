@@ -113,7 +113,7 @@
         bar = containerElement;
         width = 100 / slotCount;
 
-        for (i = 1; i <= slotCount; i++) {
+        for (i = slotCount; i >= 1; i--) {
             debug('Adding slot nr: ' + i);
             element = createSpanElement(bar, width);
             if (i === filledSlot) {
